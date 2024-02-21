@@ -4,9 +4,7 @@ using namespace std;
 
 class SegmentTree {
 private:
-    vector<int> tree;
-    vector<int> arr;
-    vector<int> lazy;
+    vector<int> tree, arr, lazy;
 
     void build(int node, int start, int end) {
         if(start == end) {
